@@ -296,11 +296,31 @@ ul li:hover ul {
   color: black;
 }
 
-.derechos.de.autor {
+.derecho-de-autor {
   font-size: 15px;
   color: #aeaeae;
   padding: 20px;
 }
+
+/* ///// Actividades //////*/
+.actividades table {
+  justify-content: center;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 81%;
+  border: 1px solid #ddd;
+  font-size: 1.5rem;
+  display: block;
+  overflow-x: auto;
+  margin: 0 auto;
+}
+
+.actividades th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+.actividades tr:nth-child(even){background-color: #f2f2f2}
 
 /* ///// Contacto //////*/
 
