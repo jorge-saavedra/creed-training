@@ -84,24 +84,26 @@
         <legend>Estemos en contacto</legend>
         <br />
         <br />
-        <label for="nombre">Nombre</label>
-        <input type="text" name="nombre" id="name" />
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+          </div>
+        </div>
+        <input class="form-control" type="text" placeholder="Asunto" aria-label="default input example">
         <br />
         <br />
         <br />
-        <label for="apellido">Apellido</label>
-        <input type="text" name="Apellido" id="apellido" />
-        <label for="asunto">Asunto</label>
-        <input type="text" name="Asunto" id="asunto" />
-        <br />
-        <br />
-        <label for="email:">Email</label>
-        <input type="text" name="Email" id="email" />
-        <br />
-
-        <br />
-        <br />
-        <label for="mensaje">Escribe tu mensaje...</label>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Escribe tu mensaje...</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
         <br />
         <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
         <div>
