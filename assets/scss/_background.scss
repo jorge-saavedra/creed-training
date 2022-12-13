@@ -1,0 +1,35 @@
+/*//// BACKGROUND  //// */
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    backface-visibility: hidden;
+    transform: translate3d(0px, 0px, 0px);
+    visibility: inherit;
+    opacity: 1;
+    background-image: url("../img/pexels-cottonbro-4761616.jpg");
+  
+    /* height: 500px; */
+  
+    /* box modeling */
+    padding: 50px 30px;
+    margin-bottom: 50px;
+  }
+  
+  .parallax h1 {
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 20px; /*aplicando padding-top*/
+    margin-top: 50px; /*aplicando margin-top*/
+  }
+  .parallax p {
+    font-size: 2.5rem;
+    text-align: center;
+    text-transform: capitalize;
+    opacity: 1;
+    padding: 10px; /*esta forma le aplica valor al top, bottom, right and left*/
+  }

@@ -1,0 +1,40 @@
+.row {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    padding: 20px;
+}
+  
+.fit-cover {
+    object-fit: scale-down;
+    height: 20cm;
+    object-position: center;
+}
+  
+.navbar {
+    padding: 2rem;
+    background-color: #f5f6f7;
+}
+  
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+  
+.nav-items {
+    position: fixed;
+    min-width: 50px;
+    left: 25%;
+    right: 0px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+  
+.navbar-toggler {
+    font-size: 40px;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
