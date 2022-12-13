@@ -12,3 +12,20 @@
     max-width: $maxWidth;
     min-width: $MinWidth;
 }
+
+@mixin background ($img) {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    backface-visibility: hidden;
+    transform: translate3d(0px, 0px, 0px);
+    visibility: inherit;
+    opacity: 1;
+    background-image: $img;
+    padding: 50px 30px;
+    margin-bottom: 50px;
+}
