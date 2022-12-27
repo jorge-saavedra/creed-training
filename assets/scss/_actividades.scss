@@ -1,14 +1,18 @@
 /* ///// Actividades //////*/
-.actividades table {
+#actividades {
+    display: flex;
     justify-content: center;
-    border-collapse: collapse;
-    border-spacing: 0;
-    width: 81%;
-    border: 1px solid #ddd;
-    font-size: 1.5rem;
-    display: block;
-    overflow-x: auto;
-    margin: 0 auto;
+    .table{
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 81%;
+        border: 1px solid #ddd;
+        font-size: 1.5rem;
+        display: block;
+        align-items: center;
+        overflow-x: auto;
+        margin: 0 auto;
+    }
 }
   
 .actividades th, td {
