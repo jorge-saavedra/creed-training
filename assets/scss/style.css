@@ -86,32 +86,19 @@ ul li:hover ul {
   background-color: rgb(7, 7, 104);
 }
 
-/* ///// Actividades //////*/
-#actividades {
-  display: flex;
-  justify-content: center;
-}
-#actividades .table {
-  border-collapse: collapse;
-  border-spacing: 0;
-  width: 81%;
-  border: 1px solid #ddd;
-  font-size: 1.5rem;
-  display: block;
-  align-items: center;
-  overflow-x: auto;
-  margin: 0 auto;
+.main-table {
+  height: 580px;
+  border: solid 1px #1b1b32;
+  box-shadow: 35px 22px 42px 5px rgba(27, 27, 50, 0.67);
+  -webkit-box-shadow: 35px 22px 42px 5px rgba(27, 27, 50, 0.67);
+  -moz-box-shadow: 35px 22px 42px 5px rgba(27, 27, 50, 0.67);
 }
 
-.actividades th, td {
-  text-align: left;
-  padding: 8px;
+@media screen and (max-width: 600px) {
+  .main-table {
+    height: 100%;
+  }
 }
-
-.actividades tr:nth-child(even) {
-  background-color: #f2f2f2;
-}
-
 /*//// BACKGROUND  //// */
 .parallax {
   background-attachment: fixed;
