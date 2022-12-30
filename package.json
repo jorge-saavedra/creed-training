@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.html",
   "scripts": {
-    "build-css": "node-sass --include-path scss assets/scss/syile.scss assets/css/styie.css",
+    "build-css": "sass --watch assets/scss/style.scss assets/scss/style.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "license": "ISC",
