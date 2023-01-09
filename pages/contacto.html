@@ -87,50 +87,103 @@
     <section class="container text-center my-3">
       <h1>Dejanos tus datos de contacto.</h1>
     </section>
-    <section class="container p-4 mb-5 formulario mt-4">
-      <form>
-        <div class="row">
-          <div class="form-check">
-            <input
-              type="text"
-              class="form-control"
-              placeholder="Nombre"
-              aria-label="First name"
-            />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="well well-sm">
+            <form class="form-horizontal" method="./contacto.html">
+              <fieldset>
+                <legend class="text-center header">
+                  Dejanos tus datos de contacto.
+                </legend>
+
+                <div class="form-group">
+                  <span class="col-md-1 col-md-offset-2 text-center"
+                    ><i class="fa fa-user bigicon"></i
+                  ></span>
+                  <div class="col-md-8">
+                    <input
+                      id="fname"
+                      name="name"
+                      type="text"
+                      placeholder="Nombre"
+                      class="form-control"
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <span class="col-md-1 col-md-offset-2 text-center"
+                    ><i class="fa fa-user bigicon"></i
+                  ></span>
+                  <div class="col-md-8">
+                    <input
+                      id="lname"
+                      name="name"
+                      type="text"
+                      placeholder="Apellido"
+                      class="form-control"
+                    />
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <span class="col-md-1 col-md-offset-2 text-center"
+                    ><i class="fa fa-envelope-o bigicon"></i
+                  ></span>
+                  <div class="col-md-8">
+                    <input
+                      id="email"
+                      name="email"
+                      type="text"
+                      placeholder="Email"
+                      class="form-control"
+                    />
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <span class="col-md-1 col-md-offset-2 text-center"
+                    ><i class="fa fa-phone-square bigicon"></i
+                  ></span>
+                  <div class="col-md-8">
+                    <input
+                      id="phone"
+                      name="phone"
+                      type="text"
+                      placeholder="Telefono"
+                      class="form-control"
+                    />
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <span class="col-md-1 col-md-offset-2 text-center"
+                    ><i class="fa fa-pencil-square-o bigicon"></i
+                  ></span>
+                  <div class="col-md-8">
+                    <textarea
+                      class="form-control"
+                      id="message"
+                      name="message"
+                      placeholder="Dejanos tu mensaje... Antes de 2 dias tendras tu respuesta!"
+                      rows="7"
+                    ></textarea>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="col-md-12 text-center">
+                    <button type="submit" class="btn btn-primary btn-lg">
+                      Enviar
+                    </button>
+                  </div>
+                </div>
+              </fieldset>
+            </form>
           </div>
-          <div class="form-check">
-            <input
-              type="text"
-              class="form-control"
-              placeholder="Apellido"
-              aria-label="Last name"
-            />
-          </div>
         </div>
-
-        <div class="form-check">
-          <span class="input-group-text">Asunto</span>
-          <input type="text" class="form-control" aria-label="Asunto" />
-        </div>
-
-        <div class="form-check">
-          <input
-            type="email"
-            class="form-control"
-            id="email"
-            placeholder="Email: nombre@example.com"
-          />
-        </div>
-
-        <div class="form-check">
-          <span class="input-group-text">Dejanos tu mensaje...</span>
-          <textarea class="form-control" aria-label="With textarea"></textarea>
-        </div>
-        <div class="form-check">
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </div>
-      </form>
-    </section>
+      </div>
+    </div>
 
     <footer
       class="seccion-oscura d-flex flex-wrap aling-items-center justify-content-center"
